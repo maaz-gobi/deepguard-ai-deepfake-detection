@@ -1,5 +1,36 @@
 # DeepGuard — AI Deepfake Video Detection
 
+<!-- recruiter-snapshot:start -->
+## Recruiter Snapshot
+
+**What this shows:** Deepfake video detection showcase using frame analysis, face extraction, feature modeling, and sequence classification.
+
+**My role / team role:** Prepared the detection pipeline documentation, demo flow, model architecture explanation, and technical proof narrative.
+
+**Public proof:** The repository includes an architecture screenshot and animated demo GIF explaining the detection flow.
+
+**Tech and implementation areas:**
+- Python
+- Django-style app
+- PyTorch
+- ResNeXt-50
+- LSTM
+- Computer vision video analysis
+
+**Relevant roles this project supports:**
+- Computer Vision Engineer
+- AI/ML Developer
+- Deep Learning Developer
+- Video Analysis Engineer
+
+## Source Code Access
+
+This is a public case-study repository. The production source code is private because it may contain proprietary business logic, client workflows, credentials, deployment details, or reusable internal implementation patterns. The public repo is intentionally focused on the product, screenshots, workflow, architecture, and evaluation material.
+
+For technical review, we can provide a live demo walkthrough, private repository access under NDA, a code screen-share, architecture review, or redacted implementation samples.
+<!-- recruiter-snapshot:end -->
+
+
 > **Upload a video, get a REAL or FAKE verdict — powered by deep learning.**
 
 DeepGuard is a deepfake video detection system built on deep learning. It combines a **ResNeXt-50 CNN** for per-frame feature extraction with an **LSTM** that models temporal inconsistencies between frames — the subtle frame-to-frame artifacts that give manipulated videos away. It ships as a Django web application plus a full model-training pipeline.
